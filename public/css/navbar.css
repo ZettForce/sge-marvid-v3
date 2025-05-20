@@ -1,0 +1,26 @@
+.dropdown-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  padding: 0.5rem;
+  width: 300px;
+}
+
+.dropdown-grid a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.dropdown-grid a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-grid i {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.25rem;
+}
